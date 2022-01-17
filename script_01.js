@@ -32,11 +32,16 @@
 
 
 // JS ist eine untypisierte Sprache! untyped
-let test;
-test = "Hi";
-test = 2;
-test = true;
+//let test;
+//test = "Hi";
+//test = 2;
+//test = true;
 
-console.log ("Datentyp:" + typeof test);
+//console.log ("Datentyp:" + typeof test);
+//console.log ("Inhalt:" + test);
+
+/** 03a Konstanten ****/
+
+const test = "hi"; // Variable mit KONSTANTEN Inhalt
+test = 2;    // KEINE neue Zuweisung zur LZ möglich!
 console.log ("Inhalt:" + test);
-
