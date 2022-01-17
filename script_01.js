@@ -52,7 +52,9 @@
 let ageJohn, ageMark;
 let birthYearJohn, birthYearMark; 
 
-let year = 2022;
+//let year = 2022;
+let date = new Date();
+let year = date.getFullYear();
 
 //Wertzuweisung
 ageJohn = 25;
